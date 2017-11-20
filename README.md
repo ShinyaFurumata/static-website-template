@@ -21,7 +21,6 @@ Slim: [http://slim-lang.com/](http://slim-lang.com/)
 ・gulpfile.js
 ・package.json
 ・bower.json
-・csscomb.json
 ・gitignore
 ・app
 　├・images
@@ -34,9 +33,10 @@ Slim: [http://slim-lang.com/](http://slim-lang.com/)
 　│　└・common.js
 　│
 　├・stylesheets
-　│　├・shared
-　│　├・top.scss
-　│　└・under.scss
+　│　├・base
+　│　├・layout
+　│　├・module
+　│　└・page
 　│
 　└・views
 　　　├・partial
